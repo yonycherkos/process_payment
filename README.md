@@ -44,7 +44,8 @@ Have `pipenv` installed in your system
 
 run the following command to do so.
 
-   1. cd `process_payment`
+   1. clone the project from git on your system, run git clone https://github.com/yonycherkos/process_payment
+   2. cd `process_payment`
    3. activate the virtual environment, inside the project run command `source env/bin/activate`
    4. exporting the FLASK_APP environment variable, run commamnd `export FLASK_APP=app.py`
    5. run command to run the flask server `flask run`
